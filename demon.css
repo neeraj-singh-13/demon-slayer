@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6B8A7A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(wallpaperflare.com_wallpaper\ \(3\).jpg);
+    /* background-repeat: repeat; */
+    background-size: cover;
+    /* margin-left: 30px; */
+    color : white;
+}
+
+h1 {
+    font-size :40px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom :30px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.demon {
+    display: flex;
+    justify-content: center;
+    /* gap: 60px; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height :280px;
+    padding: 20px 40px;
+}
+
+img:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+
+p {
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+    font-size :30px;
+    color : white;
+    text-decoration: none;
+}
+
+.kokushibo {
+    order: -1;
+}
+
+.doma {
+    order: -1
+}
